@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home-container{
+    margin: 13px;
+    height: 700px;
+    width: 1500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(images/pngtree-dark-gym-where-you-can-take-in-the-surrounding-light-picture-image_2611114.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    height: 60px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav{
+    
+    height: 50px;
+    width: 700px;
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        font-style: italic;
+        justify-content: space-evenly;
+        font-size: 25px;
+        translate: 0px 10px;
+       
+        li a{
+            text-decoration: none;
+            color: aqua;
+        }
+    }
+    
+    }
+
+
+
+.join-btn{
+    
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border-radius: 12px;
+    font-style: italic;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    a{
+        text-decoration: none;
+        color:white;
+    }
+}
+button:hover{
+    font-size: 18px;
+    font-weight: 700;
+}
+.mid-container{
+    height: 600px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desc-container{
+    font-style: italic;
+    height: 550px;
+    width: 700px;
+    padding: 40px;
+    h1{
+        color: white;
+        font-size: 50px;
+    }
+    span{
+        color: rgb(100, 249, 8);
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    p{
+        color: whitesmoke;
+        font-size: 20px;
+    }
+}
+.btn-1{
+    border: 2px solid white;
+    border-radius: 12px;
+    font-style: italic;
+    background-color: transparent;
+    color: aquamarine;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    a{
+        text-decoration: none;
+        color:white;
+    }
+}
+.btn-1:hover{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.img-container{
+    
+    height: 550px;
+    width: 700px;
+}
+#about-container{
+    overflow: hidden;
+    height: 700px;
+    width: 1500px;
+    margin: 13px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-img{
+    overflow: hidden;
+    height: 650px;
+    width: 700px;
+    border-radius: 12px;
+    background-image: url(images/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        transition: all ease-in-out 10s;
+        transform: scale(1.5);
+    }
+
+}
+.about-desc{
+    
+    border-radius: 10px;
+    height: 650px;
+    width: 700px;
+    color: white;
+    padding: 20px;
+    span{
+        font-size: 70px;
+        font-weight: 800;
+        font-style: italic;
+        color: bisque;
+    }
+    ul{
+        list-style:circle;
+        list-style-position: inside;
+        font-size: 30px;
+        line-height: 80px;
+        font-weight: 700;
+        color: aquamarine;
+        font-style: oblique;
+    }
+}
+#services-container{
+    background-image: url(images/image-barbell-gym-concept-sport-healthy-lifestyle_167862-91.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    height: 700px;
+    width: 1500px;
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ser-cont1{
+    color: rgb(254, 253, 251);
+    height: 100px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inner1{
+    height: 90px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        font-style: italic;
+        font-size: 100px;
+        font-weight: 700;
+    }
+}
+
+.inner2{
+    height: 90px;
+    width:800px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+.ser-cont2{
+    
+    height: 550px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.c1{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+        img{
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+        }
+
+}
+.c2{
+    
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    padding: 15px;
+    span{
+        color: aqua;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        color: white;
+        font-style: italic;
+    }
+}
+.c3{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    img{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    }
+}
+.c4{
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    span{
+        color: aqua;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        color: white;
+        font-style: italic;
+    }
+}
+.c5{
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    span{
+        color: aqua;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        color: white;
+        font-style: italic;
+    }
+}
+.c6{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    img{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+.c7{
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    span{
+        color: aqua;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        color: white;
+        font-style: italic;
+    }
+}
+.c8{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+    img{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    }
+}
+#offers-container{
+    background-image: url(images/gymshark-lifting-club-interior-weights-1024x663.jpeg);
+    border-radius: 12px;
+    height: 700px;
+    width: 1500px;
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.offer1{
+    
+    height: 100px;
+    width: 1450px;
+    span{
+        font-style: italic;
+        font-size: 100px;
+        font-weight: 700;
+        color: aliceblue;
+    }
+}
+.offer2{
+    
+    height: 550px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price1{
+    
+    border-radius: 12px;
+    height: 500px;
+    width: 400px;
+    background-image: url(images/7ba08e7e9ff2a6295c9273e34d4ec14b.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    padding-block: 25px;
+    span{
+        color: aqua;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        opacity: 0;
+        font-style: italic;
+       color: rgb(226, 247, 4);
+       font-size: 35px;
+       font-weight:600;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+    }
+    button{
+        border: 2px solid white;
+        height: 40px;
+        width: 250px;
+        border-radius: 12px;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        color: white;
+        a{
+            text-decoration: none;
+            color:white;
+        }
+    }
+}
+.price2{
+    
+    border-radius: 12px;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    padding-block: 25px;
+    background-image: url(images/canva-black-minimalist-workout-exercise-gym-zoom-background-geSqu-shKsE.jpg);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    span{
+        color: aqua;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        opacity: 0;
+        font-style: italic;
+       color: rgb(226, 247, 4);
+       font-size: 35px;
+       font-weight:600;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+    }
+    button{
+        border: 2px solid white;
+        height: 40px;
+        width: 250px;
+        border-radius: 12px;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        color: white;
+    }
+}
+.price3{
+    
+    border-radius: 12px;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    padding-block: 25px;
+    background-image: url(images/048344a212db8bc1ee88901ce68822d9.jpg);
+    background-position: center;
+    background-size: cover;
+    span{
+        color: aqua;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: 700;
+    }
+    p{
+        opacity: 0;
+        font-style: italic;
+       color: rgb(226, 247, 4);
+       font-size: 35px;
+       font-weight:600;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+    }
+    button{
+        border: 2px solid white;
+        height: 40px;
+        width: 250px;
+        border-radius: 12px;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        color: white;
+    }
+}
+#contact-container{
+    border: 2px solid ;
+    border-radius: 12px;
+    height: 700px;
+    width: 1500px;
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url(images/gym-fitness-club-with-neon-light3d-rendering_866214-3911.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact-left{
+     
+     height: 500px;
+     width: 500px;
+     span{
+        font-style: italic;
+        font-size: 100px;
+        font-weight: 700;
+        color: bisque;
+    }
+    
+
+}
+
+.contact-right{
+  
+     height: 500px;
+     width: 800px;
+}
+.contact-left p{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.contact-left p i{
+    color: #fcf9fa;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.social-icons{
+    margin-top: 30px;
+    color: white;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fdfbfb;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translate(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input, form textarea{
+    width: 100%;
+    border: 2px solid white;
+    background: transparent;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+form .btn2{
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    translate: 0 20%;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+.copyright i{
+    color: #ff004f;
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
